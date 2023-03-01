@@ -28,7 +28,7 @@ class GameViewModel {
             switch result {
             case .success(let listOf):
                 self?.targetgGames = listOf.games
-                self?.Images = Array(repeating: UIImage(named: "background")!, count: listOf.games.count)
+                self?.Images = Array(repeating: UIImage(systemName: "gamecontroller.fill")!, count: listOf.games.count)
                 //self?.isImagesLoaded = Array(repeating: false, count: listOf.games.count)
                 //self?.loadImages(games: listOf.games)
                 completion()

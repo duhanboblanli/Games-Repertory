@@ -17,45 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="2ej-BB-cRn">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games Repertory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWh-js-2vI">
-                                <rect key="frame" x="42" y="387.33333333333331" width="309" height="77.333333333333314"/>
+                                <rect key="frame" x="42" y="264" width="309" height="77"/>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="66"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wzT-rL-bzE">
-                                <rect key="frame" x="16" y="472" width="361" height="104"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af175e6a32cd6f7424cc55beac3c5f7f (1) 1" translatesAutoresizingMaskIntoConstraints="NO" id="S18-uL-QOg">
-                                        <rect key="frame" x="0.0" y="0.0" width="115" height="104"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3283617cb7d75d67257fc58339188742 1" translatesAutoresizingMaskIntoConstraints="NO" id="s1k-gf-Gup">
-                                        <rect key="frame" x="123" y="0.0" width="115" height="104"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="088b41ca3f9d22163e43be07acf42304 1" translatesAutoresizingMaskIntoConstraints="NO" id="eGl-jV-uW3">
-                                        <rect key="frame" x="246" y="0.0" width="115" height="104"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appstore" translatesAutoresizingMaskIntoConstraints="NO" id="S18-uL-QOg">
+                                <rect key="frame" x="136" y="410" width="119.99999999999997" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="7S8-kN-qCi"/>
+                                    <constraint firstAttribute="width" constant="120" id="RM2-jf-YUE"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wzT-rL-bzE" secondAttribute="bottom" constant="242" id="4Md-Os-hjd"/>
-                            <constraint firstItem="wzT-rL-bzE" firstAttribute="top" secondItem="CWh-js-2vI" secondAttribute="bottom" constant="7.3300000000000001" id="6Z7-Ek-u0B"/>
-                            <constraint firstAttribute="bottom" secondItem="2ej-BB-cRn" secondAttribute="bottom" id="75h-vk-yqX"/>
-                            <constraint firstItem="2ej-BB-cRn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9bP-cv-1P4"/>
-                            <constraint firstAttribute="trailing" secondItem="2ej-BB-cRn" secondAttribute="trailing" id="F6L-di-e6t"/>
+                            <constraint firstItem="S18-uL-QOg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="44" id="Dp0-3I-Dyv"/>
                             <constraint firstItem="CWh-js-2vI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FLv-h5-Rdv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wzT-rL-bzE" secondAttribute="trailing" constant="16" id="Gr5-MR-dog"/>
-                            <constraint firstItem="wzT-rL-bzE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KHA-qY-rn5"/>
-                            <constraint firstItem="2ej-BB-cRn" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Og7-cd-sdv"/>
-                            <constraint firstItem="2ej-BB-cRn" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bo1-au-4za"/>
-                            <constraint firstItem="CWh-js-2vI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="x5t-S4-qmM"/>
-                            <constraint firstItem="2ej-BB-cRn" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="xaT-La-RwV"/>
+                            <constraint firstItem="S18-uL-QOg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PWM-P5-lnl"/>
+                            <constraint firstItem="CWh-js-2vI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-123.5" id="x5t-S4-qmM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -65,10 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="088b41ca3f9d22163e43be07acf42304 1" width="120" height="104"/>
-        <image name="3283617cb7d75d67257fc58339188742 1" width="120" height="104"/>
-        <image name="af175e6a32cd6f7424cc55beac3c5f7f (1) 1" width="120" height="104"/>
-        <image name="background" width="596" height="842"/>
+        <image name="appstore" width="1024" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
