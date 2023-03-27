@@ -13,9 +13,10 @@
 
 # Introduction ⚒  
 
-* Developed an iOS application in XCode(Swift) to fetch game informations from API. 
-* Used MVC design Pattern. 
+* An iOS app developed with Swift and UIKit to get different game information from API.
+* MVC design pattern is used.
 * Implemented Table View, Pagination, Tab Bar, Navigation Bar and Search Bar. 
+
 
 
 # How To Use 📲
